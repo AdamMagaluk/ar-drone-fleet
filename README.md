@@ -28,7 +28,7 @@ npm install ar-drone-fleet
 - animateLeds
 - disableEmergency
 
-With each wrapped function it supports calling it with the intended parameters felixge's library looks for as well as prepending the drone index to only control one drone out of the group.
+Each wrapped function can be called as normal to control all drones `fleet.takeoff()` or with the first parameter as the drones key `fleet.takeoff('drone1')`. See example below for more details.
 
 ```js
 var ArDroneFleet = require('ar-drone-fleet');
