@@ -5,6 +5,10 @@ Control multiple ar drones using Node.js, module wraps @felixge's https://github
 
 Api wraps all of Felixge's Client api library.
 
+## Status
+Still under heavy development and not completly tested, still waiting to get together with multiple drones.
+
+
 ## Installing
 
 ```bash
