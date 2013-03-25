@@ -6,7 +6,8 @@ Control multiple ar drones using Node.js, module wraps @felixge's https://github
 Api wraps all of Felixge's Client api library.
 
 ## Installing
-```
+
+```bash
 npm install ar-drone-fleet
 ```
 
@@ -25,7 +26,7 @@ npm install ar-drone-fleet
 
 With each wrapped function it supports calling it with the intended parameters felixge's library looks for as well as prepending the drone index to only control one drone out of the group.
 
-```
+```js
 var ArDroneFleet = require('ar-drone-fleet');
 
 // Supply constructor with the client options, this is used by arDrone.createClient()
