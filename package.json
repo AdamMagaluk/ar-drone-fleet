@@ -1,7 +1,7 @@
 {
   "author": "Adam Magaluk <AdamMagaluk@gmail.com>",
   "name": "ar-drone-fleet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Control multiple ar drones using Node.js, module wraps @felixge's https://github.com/felixge/node-ar-drone module.",
   "homepage": "https://github.com/AdamMagaluk/ar-drone-fleet",
   "repository": {
