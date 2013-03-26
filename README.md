@@ -43,7 +43,7 @@ fleet.up(1);
 fleet.up('drone1',2); // Use object name
 
 fleet.on('takeoff',function(data){
-	console.log(data.drone " tookoff");
+	console.log(data.drone + " tookoff");
 });
 
 // Or alternately supply the constructor with array of client options.
@@ -56,7 +56,7 @@ fleet.up(1);
 fleet.up(1,2); // Using index of supplied drones
 
 fleet.on('takeoff',function(data){
-	console.log(data.drone " tookoff");
+	console.log(data.drone + " tookoff");
 });
 
 ```

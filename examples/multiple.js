@@ -9,5 +9,5 @@ fleet.up(1);
 fleet.up('drone1',2);
 
 fleet.on('takeoff',function(data){
-	console.log(data.drone " tookoff");
+	console.log(data.drone + " tookoff");
 });
